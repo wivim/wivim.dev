@@ -39,26 +39,28 @@
     --font-main: Verdana, sans-serif;
     --font-secondary: Verdana, sans-serif;
     --font-scale: 1em;
-    --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
-    --blockquote-color: #222;
+
+     
+    --background-color: #ECEFF4;
+    --heading-color: #2E3440;
+    --text-color: #3B4252;
+    --link-color: #5E81AC;
+    --visited-color: #B48EAD;
+    --code-background-color: #D8DEE9;
+    --code-color: #2E3440;
+    --blockquote-color: #4C566A;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background-color: #01242e;
-      --heading-color: #eee;
-      --text-color: #ddd;
-      --link-color: #8cc2dd;
-      --visited-color: #8b6fcb;
-      --code-background-color: #000;
-      --code-color: #ddd;
-      --blockquote-color: #ccc;
+      --background-color: #2E3440;
+      --heading-color: #ECEFF4;
+      --text-color: #D8DEE9;
+      --link-color: #88C0D0;
+      --visited-color: #B48EAD;
+      --code-background-color: #3B4252;
+      --code-color: #ECEFF4;
+      --blockquote-color: #81A1C1;
     }
   }
 
@@ -76,12 +78,7 @@
     color: var(--text-color);
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
   }
@@ -100,8 +97,7 @@
     margin-right: 8px;
   }
 
-  strong,
-  b {
+  strong, b {
     color: var(--heading-color);
   }
 
@@ -126,7 +122,7 @@
 
   hr {
     border: 0;
-    border-top: 1px dashed;
+    border-top: 1px dashed var(--text-color);
   }
 
   img {
@@ -142,8 +138,8 @@
   }
 
   blockquote {
-    border-left: 1px solid #999;
-    color: var(--code-color);
+    border-left: 2px solid var(--blockquote-color);
+    color: var(--blockquote-color);
     padding-left: 20px;
     font-style: italic;
   }
@@ -176,7 +172,6 @@
     overflow-x: auto;
   }
 
-   
   ul.blog-posts {
     list-style-type: none;
     padding: unset;
@@ -193,7 +188,6 @@
   ul.blog-posts li a:visited {
     color: var(--visited-color);
   }
-
 </style>
 
 </head>

@@ -16,9 +16,8 @@
 <meta property="og:url" content="https://wivim.dev/">
   <meta property="og:site_name" content="wivim&#39;s infosec blog">
   <meta property="og:title" content="Home">
-  <meta property="og:description" content="secure information content posting about whatever shenanigans I do and find on my freetime.
-Articles Placeholder
-Writeups Placeholder">
+  <meta property="og:description" content="posting about whatever shenanigans I do and find on my freetime.
+Articles Placeholder Writeups Placeholder Public key, GitHub">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
 
@@ -27,19 +26,15 @@ Writeups Placeholder">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Home">
-  <meta name="twitter:description" content="secure information content posting about whatever shenanigans I do and find on my freetime.
-Articles Placeholder
-Writeups Placeholder">
+  <meta name="twitter:description" content="posting about whatever shenanigans I do and find on my freetime.
+Articles Placeholder Writeups Placeholder Public key, GitHub">
 
 
 
 
   <meta itemprop="name" content="Home">
-  <meta itemprop="description" content="secure information content posting about whatever shenanigans I do and find on my freetime.
-Articles Placeholder
-Writeups Placeholder">
-  <meta itemprop="datePublished" content="2025-06-02T14:04:51+03:00">
-  <meta itemprop="dateModified" content="2025-06-02T14:04:51+03:00">
+  <meta itemprop="description" content="posting about whatever shenanigans I do and find on my freetime.
+Articles Placeholder Writeups Placeholder Public key, GitHub">
   <meta itemprop="wordCount" content="18">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -50,26 +45,28 @@ Writeups Placeholder">
     --font-main: Verdana, sans-serif;
     --font-secondary: Verdana, sans-serif;
     --font-scale: 1em;
-    --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
-    --blockquote-color: #222;
+
+     
+    --background-color: #ECEFF4;
+    --heading-color: #2E3440;
+    --text-color: #3B4252;
+    --link-color: #5E81AC;
+    --visited-color: #B48EAD;
+    --code-background-color: #D8DEE9;
+    --code-color: #2E3440;
+    --blockquote-color: #4C566A;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background-color: #01242e;
-      --heading-color: #eee;
-      --text-color: #ddd;
-      --link-color: #8cc2dd;
-      --visited-color: #8b6fcb;
-      --code-background-color: #000;
-      --code-color: #ddd;
-      --blockquote-color: #ccc;
+      --background-color: #2E3440;
+      --heading-color: #ECEFF4;
+      --text-color: #D8DEE9;
+      --link-color: #88C0D0;
+      --visited-color: #B48EAD;
+      --code-background-color: #3B4252;
+      --code-color: #ECEFF4;
+      --blockquote-color: #81A1C1;
     }
   }
 
@@ -87,12 +84,7 @@ Writeups Placeholder">
     color: var(--text-color);
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
   }
@@ -111,8 +103,7 @@ Writeups Placeholder">
     margin-right: 8px;
   }
 
-  strong,
-  b {
+  strong, b {
     color: var(--heading-color);
   }
 
@@ -137,7 +128,7 @@ Writeups Placeholder">
 
   hr {
     border: 0;
-    border-top: 1px dashed;
+    border-top: 1px dashed var(--text-color);
   }
 
   img {
@@ -153,8 +144,8 @@ Writeups Placeholder">
   }
 
   blockquote {
-    border-left: 1px solid #999;
-    color: var(--code-color);
+    border-left: 2px solid var(--blockquote-color);
+    color: var(--blockquote-color);
     padding-left: 20px;
     font-style: italic;
   }
@@ -187,7 +178,6 @@ Writeups Placeholder">
     overflow-x: auto;
   }
 
-   
   ul.blog-posts {
     list-style-type: none;
     padding: unset;
@@ -204,7 +194,6 @@ Writeups Placeholder">
   ul.blog-posts li a:visited {
     color: var(--visited-color);
   }
-
 </style>
 
 </head>
@@ -223,14 +212,19 @@ Writeups Placeholder">
 </nav>
 </header>
   <main>
-<h3 id="secure-information-content">secure information content</h3>
 <p>posting about whatever shenanigans I do and find on my freetime.</p>
 <hr>
 <h3 id="articles">Articles</h3>
-<p><a href="">Placeholder</a></p>
+<ul>
+<li><a href="">Placeholder</a></li>
+</ul>
 <hr>
 <h3 id="writeups">Writeups</h3>
-<p><a href="">Placeholder</a></p>
+<ul>
+<li><a href="">Placeholder</a></li>
+</ul>
+<hr>
+<p><a href="pubkey.asc">Public key</a>, <a href="https://github.com/wivim">GitHub</a></p>
 
 
   </main>
